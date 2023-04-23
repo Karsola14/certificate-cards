@@ -1,16 +1,21 @@
 /* diagnostic styling */
-* {
+/* * {
     outline: 1px dotted gray;
-}
+} */
 
 /* layout */
-body {
+.card-layout {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+/* title */
+h1 {
+    display: block;
+    text-align: center;
+}
 
 /* scene */
 .scene {
@@ -46,14 +51,36 @@ body {
     backface-visibility: hidden;
 }
 
-.front {
-    background: coral;
-}
-
 .back {
-    background: cornflowerblue;
+    background: #0F3B3D;
     /* flip it default   */
     transform: rotateY(180deg);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+/* card title */
+h2 {
+    font-size: 24px;
+    color: #EED064;
+    padding-left: 15px;
+}
+
+/* information */
+p {
+    font-size: 18px;
+    color: #EED064;
+    padding-left: 15px;
+    padding-right: 18px;
+    widows: 0;
+    orphans: 0;
+}
+
+.salary {
+    font-weight: 700;
 }
 
 /* flip card
@@ -72,7 +99,7 @@ body {
          content: "Mobile Size";
     }
 
-    body {
+    .card-layout-mobile {
         display: flex;
         flex-direction: column;
     }
