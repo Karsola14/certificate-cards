@@ -100,7 +100,7 @@ p {
     }
 
     .card-layout-mobile {
-        margin-top: 800px;
+        margin-top: 600px;
         display: flex;
         flex-direction: column;
     }
