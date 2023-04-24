@@ -9,14 +9,19 @@
         font-size: 1.25em;
     }
 
+    p {
+        widows: 0;
+        orphans: 0;
+    }
+
     /* printer anchor links */
     a[href]::after {
         content: " " attr(href); 
     }
 
-    /* turn paragraphs into colums */
-    .face p {
-        columns: 2;
+    .image {
+        width: 50%;
+        height: 50%;
     }
 
     @page {
