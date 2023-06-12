@@ -4,6 +4,7 @@
 } */
 
 body {
+    font-family: 'Plein-Regular';
     background: darkblue;
     color: #EED064
 }
@@ -24,16 +25,18 @@ h1 {
 /* card title */
 .card-title {
     display: flex;
-    column-gap: 7.5em;
+    column-gap: 7.2em;
     padding-top: 10em;
 }
+
+/* card title spacing */
 
 #front-end {
     padding-left: 1em;
 }
 
 #game-design {
-    padding-left: 2em;
+    padding-left: 2.3em;
 }
 
 /* scene */
