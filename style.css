@@ -3,6 +3,11 @@
     outline: 1px dotted gray;
 } */
 
+body {
+    background: darkblue;
+    color: #EED064
+}
+
 /* layout */
 .card-layout {
     display: flex;
