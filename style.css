@@ -12,7 +12,6 @@ body {
 .card-layout {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
 }
 
@@ -20,6 +19,21 @@ body {
 h1 {
     display: block;
     text-align: center;
+}
+
+/* card title */
+.card-title {
+    display: flex;
+    column-gap: 7.5em;
+    padding-top: 10em;
+}
+
+#front-end {
+    padding-left: 1em;
+}
+
+#game-design {
+    padding-left: 2em;
 }
 
 /* scene */
