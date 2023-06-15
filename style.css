@@ -123,13 +123,11 @@ p {
 @media only screen and (max-width: 30em){ 
 
     .card-layout-mobile {
-        display: flex;
-        flex-direction: column;
+        display: block;
+        position: relative;
+        left: 50%;
+        right: 50%;
         margin-top: 700px;
-    }
-
-    .scene {
-        text-align: center;
     }
     
 }
