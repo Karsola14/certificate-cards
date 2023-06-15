@@ -116,12 +116,18 @@ p {
 
     .card-layout-mobile {
         display: flex;
+        justify-content: center;
         flex-direction: column;
         margin-top: 700px;
     }
 
     .card-title-mobile {
         display: block;
+    }
+
+    .game-design-mobile {
+        position: absolute;
+        top: 30em;
     }
     
 }
