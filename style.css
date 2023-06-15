@@ -22,20 +22,27 @@ h1 {
     text-align: center;
 }
 
+section {
+    position: relative;
+}
+
 /* card title */
 .card-title {
-    display: flex;
-    column-gap: 7.2em;
-    padding-top: 10em;
+    position: absolute;
+    text-align: center;
+    top: 12px;
 }
 
-/* card title spacing */
-#front-end {
-    padding-left: 1em;
+#ux-title {
+    left: 60px;
 }
 
-#game-design {
-    padding-left: 2.3em;
+#three-d-title {
+    left: 60px;
+}
+
+#game-design-title {
+    left: 50px;
 }
 
 /* scene */
@@ -119,15 +126,6 @@ p {
         justify-content: center;
         flex-direction: column;
         margin-top: 700px;
-    }
-
-    .card-title-mobile {
-        display: block;
-    }
-
-    #game-design-mobile {
-        position: absolute;
-        top: 30em;
     }
     
 }
