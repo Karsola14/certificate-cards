@@ -125,7 +125,7 @@ p {
         display: block;
     }
 
-    .game-design-mobile {
+    #game-design-mobile {
         position: absolute;
         top: 30em;
     }
