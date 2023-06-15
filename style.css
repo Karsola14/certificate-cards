@@ -30,7 +30,6 @@ h1 {
 }
 
 /* card title spacing */
-
 #front-end {
     padding-left: 1em;
 }
@@ -119,6 +118,10 @@ p {
         display: flex;
         flex-direction: column;
         margin-top: 700px;
+    }
+
+    .card-title-mobile {
+        display: block;
     }
     
 }
