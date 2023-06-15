@@ -127,5 +127,9 @@ p {
         flex-direction: column;
         margin-top: 700px;
     }
+
+    .scene {
+        text-align: center;
+    }
     
 }
